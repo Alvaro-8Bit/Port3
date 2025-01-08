@@ -1,0 +1,58 @@
+body{
+          background-image: url(img/PortBg.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          font-size: larger;
+          font-family:'Times New Roman', Times, serif;
+          color: rgba(0, 40, 120);
+}
+a{
+          color: rgb(120, 20, 220);
+      }
+      a:hover{
+          color: rgb(120, 70, 255);
+      }
+      a:visited{
+          color: rgba(30, 20, 120);
+      }
+      a:hover:visited{
+          color: rgba(70, 30, 210);
+      }
+      td{
+          background-color: rgb(220, 220, 255, 0.6);
+          border-width: 2px;
+          border-color: rgb(150, 150, 220, 0.7);
+          border-style: outset;
+          padding: 5px;
+      }
+.borda{
+          background-color: rgba(180, 200, 255, 0.45);
+          border-width: 6px;
+          border-color: rgba(35, 71, 190, 0.75);
+          border-style: double;
+          max-width: 97.5%;
+          min-width: 85%;
+          padding: 10px;
+          margin: 5px;
+}
+.conteudo{
+          background-color: rgba(130, 200, 255, 0.55);
+          border-width: 6px;
+          border-color: rgba(70, 90, 230, 0.4);
+          border-style: double;
+          max-width: 97.5%;
+          min-width: 85%;
+          padding: 10px;
+          margin: 5px;
+}
+.espaco{
+          margin: 2px;
+          width:90%;
+}
+#botao{
+    width: 100px;
+    height: 40px;
+    font-size: x-large;
+}
